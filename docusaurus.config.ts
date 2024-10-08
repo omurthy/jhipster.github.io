@@ -22,14 +22,14 @@ const config: Config = {
   favicon: 'images/favicon.ico',
 
   // Set the production url of your site here
-  url: 'https://www.jhipster.tech',
+  url: 'https://omurthy.github.io',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl,
+  baseUrl: '/jhipster.github.io/',
 
   // GitHub pages deployment config.
   deploymentBranch: 'gh-pages',
-  organizationName: 'jhipster',
+  organizationName: 'omurthy',
   projectName: 'jhipster.github.io',
 
   // onBrokenLinks: 'throw',
@@ -53,7 +53,7 @@ const config: Config = {
         docs: {
           sidebarPath: './sidebars.ts',
           // Remove this to remove the "edit this page" links.
-          editUrl: 'https://github.com/jhipster/jhipster.github.io/tree/main/',
+          editUrl: 'https://github.com/omurthy/jhipster.github.io/tree/main/',
           routeBasePath: '/',
           showLastUpdateTime: true,
           versions: {
